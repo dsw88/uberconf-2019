@@ -24,6 +24,10 @@ I attended the following sessions:
 Several of these notebooks have code cells in them. You should be able to view them using GitHub or another notebook viewer, but if you'd like to actually run them you'll need to do some extra work to make the JVM languages runnable. You can install the requisite JVM language kernels using [BeakerX](http://beakerx.com/). I recommend the following process:
 
 1. Install Anaconda
-2. Create a new *BeakerX* virtual environment in Anaconda
-3. Install BeakerX using the `conda` installation method
-4. Start up Jupyter Notebook or Lab and you should see the various JVM language kernels in addition to Python.
+2. Create a new virtual environment named *beakerx* in Anaconda
+4. Install BeakerX:
+    ```
+    conda install numpy
+    conda install -c conda-forge ipywidgets beakerx
+    ```
+5. Start up Jupyter Notebook or Lab and you should see the various JVM language kernels in addition to Python.
